@@ -1,0 +1,370 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    clear: both;
+}
+header{
+    background-color: black;
+    height: 100%;
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+    padding-top: -20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+nav span{
+    color: red;
+   
+}
+header h1{
+    color: white;
+    font-weight: 800;
+    float: left;
+    margin-top: -5px;
+    margin-left: 50px;
+}
+
+nav{
+    padding-right: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding-right: 20px;
+    padding-left: 40px;
+   
+}
+
+.left h2{
+    border-bottom: 2px solid rgb(145, 9, 9);
+
+}
+.left{
+    float: left;
+    width: 55%;
+    
+}
+section .right{
+    float: left;
+    width: 25%;
+
+}
+section h2+img{
+    width: 55%;
+}
+section h2+img+h3{
+    width: 55%;
+    font-weight: 600;
+}
+
+.two-together{
+    clear: both;
+}
+.second, .third{
+    width: 27.5%;
+    float: left;
+
+    
+}
+
+.second img, .third img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 200px;
+    
+    
+}
+section .right{
+    float: left;
+    width: 25%;
+    margin-top: -41.5%;
+    margin-left: 5%;
+
+}
+h4{
+    color:  rgb(145, 9, 9);
+}
+.right p{
+    margin-top: -2px;
+  
+}
+aside h2{
+    text-decoration: underline rgb(145, 9, 9);
+    text-decoration-thickness: 2px;
+    padding-top: 20px;
+    padding-right:-5px;
+}
+aside h2+li{
+    margin-top: 20px;
+    height: 100%;
+
+}
+aside img{
+    height: 40%;
+    width: 20%;
+    margin-left: 120px;
+
+}
+.one{
+    padding-bottom: 20px;
+}
+.two{
+    padding-bottom: 20px;
+}
+.three{
+    padding-bottom: 20px;
+}
+.four{
+    padding-bottom: 20px;
+}
+.five{
+    padding-bottom: 20px;
+}
+.six{
+    padding-bottom: 20px;
+}
+
+.first imag{
+    float: left; 
+    width: 420px;
+    margin-right: 24px;
+}
+
+.all{
+    float: left;
+    width: calc(50%-24px);
+    padding-left: 18px;
+}
+.fourth{
+
+    height: 50%;
+}
+.fourth>h2{
+    text-decoration: none;
+}
+.fourth span{
+    color:rgb(145, 9, 9);
+}
+.fourth a{
+    color: gray
+}
+.fourth h2{
+    clear: both;
+    margin-top: 15px; 
+}
+.fourth h2+img{
+    float: left;
+    width: 50%;
+    margin-right: 24px;
+    display: block;
+
+}
+.fourth one, .fourth two, .fourth three, .fourth four, .fourth five{
+
+    margin-left: 20px;
+    width: 40%;
+    height: 100%;
+
+}
+
+
+
+.fourth li{
+    border-bottom: 1px solid rgb(149, 137, 137);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(177, 164, 164);
+    height: 100%;
+    
+
+}
+
+
+footer{
+    clear: both;
+
+}
+footer p, footer span{
+    text-align: right;
+
+}
+footer span{
+    color: blue;
+}
+footer p+p>span{
+    border-right: 1px solid rgb(154, 147, 147);
+}
+p>span{
+    margin-right: 5px;
+    padding-right: 5px;
+}
+footer span+span+span{
+    border-right: none;
+}
+
+/*responsivenessfor tablets*/
+@media (max-width: 1024px) {
+
+  header { 
+    margin-bottom: 40px;
+}
+  header h1 { 
+    float: none; 
+    display: inline-block; 
+    margin: 0 0 10px 0; 
+}
+  nav { 
+    text-align: center; 
+    padding: 10px 0; 
+}
+  nav a { 
+    float: none; 
+    display: inline-block; 
+    padding: 8px 12px; 
+}
+
+
+  .left { 
+    float: left; 
+    width: 65%; 
+}
+  aside  { 
+    float: right; 
+    width: 35%; 
+}
+
+
+  section h2+img,
+  section h2+img+h3 { 
+    width: 100%; 
+}
+
+
+  .second, .third { 
+    width: 48%; 
+}
+  .second { 
+    margin-right: 4%; 
+}
+  
+
+  section .right {
+    float: none;
+    width: 100%;
+    margin: 20px 0 0 0;  /*remove negative margin*/ 
+  }
+
+
+  aside img { 
+    width: 40%; 
+    height: auto; 
+    margin: 0 auto 12px; 
+    display: block; 
+}
+
+  .fourth h2+img { 
+    width: 48%; 
+    margin-right: 4%;
+}
+  .all { 
+    float: left; 
+    width: 48%; 
+    padding-left: 0; 
+}
+}
+
+/* Small phones*/
+@media (max-width: 767.98px) {
+
+  html, body { 
+    overflow-x: hidden; 
+}
+
+  header { 
+    padding: 16px 12px; 
+    margin-bottom: 20px; 
+}
+  header h1 { 
+    float: none; 
+    display: block; 
+    margin: 0 0 10px; 
+    text-align: center; 
+}
+  nav { 
+    text-align: center; 
+    padding: 0; 
+}
+  nav a { 
+    float: none; 
+    display: inline-block; 
+    padding: 8px 10px; 
+    font-size: 14px;
+    width: 100%;
+}
+
+  /* Stacking main columns */
+  .left, aside { 
+    float: none; 
+    width: 100%; 
+}
+
+
+  section h2+img,
+  section h2+img+h3 { 
+    width: 100%; 
+}
+
+
+  .second, .third { 
+    float: none; 
+    width: 100%; 
+    margin: 0 0 14px; 
+}
+  .second img, .third img { 
+    height: auto; 
+}
+
+
+  section .right {
+    float: none;
+    width: 100%;
+    margin: 16px 0 0 0;
+  }
+
+ 
+  aside img { 
+    width: 60%; 
+    height: auto; 
+    margin: 0 auto 12px; 
+    display: block; 
+}
+  aside h2 { 
+    text-align: center; 
+}
+
+  .fourth h2+img { 
+    float: none; 
+    width: 100%; 
+    margin: 8px 0 12px; 
+}
+  .all { 
+    float: none; 
+    width: 100%; 
+}
+
+
+  footer p, footer span { 
+    text-align: center; 
+}
+  p>span { 
+    display: inline-block; 
+}
+}
